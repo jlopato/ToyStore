@@ -22,7 +22,7 @@ const listenToAdd = (buttons) => {
       })
     })
   })
-
+}
 const cartItemsListeners = () => {
   const addToCartButtons = document.querySelectorAll('.cart .add-to-cart')
   listenToAdd(addToCartButtons)
